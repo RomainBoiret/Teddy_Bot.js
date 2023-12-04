@@ -16,7 +16,7 @@ module.exports = async bot => {
 
         if(command.options?.length >= 1) {
             for(let i = 0; i < command.options.length; i++) {
-                slashcommand[`add${command.options[i].type.slice(0, 1).toLowerCase() + command.options[i].type.slice(1, command.options[i].type.length)}Option`](option => option.setName(command.options[i].name).setDescription(command.options[i].description).setRequired(command.options[i].required))
+                slashcommand[`add${command.options[i].type.slice(0, 1).toUpperCase() + command.options[i].type.slice(1, command.options[i].type.length)}Option`](option => option.setName(command.options[i].name).setDescription(command.options[i].description).setRequired(command.options[i].required))
             }
         }
 
