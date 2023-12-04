@@ -28,7 +28,7 @@ module.exports = {
         if(!member) return message.reply("Pas de membre à kick !")
 
         let reason = args.getString("raison")
-        if(!reason) reason = "Pas raison fournie.";
+        if(!reason) reason = "Pas de raison fournie.";
 
         if(message.user.id === user.id) return message.reply("Essaie pas de te kick !")
         if((await message.guild.fetchOwner()).id === user.id) return message.reply("Ne kick pas le propriétaire du serveur !")
