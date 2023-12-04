@@ -1,4 +1,4 @@
-# Teddy_Bot_Discord
+# Teddy
 
 ## Description
 
