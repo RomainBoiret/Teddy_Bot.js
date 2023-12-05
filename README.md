@@ -9,7 +9,7 @@ Ce bot a été développé pour faciliter et améliorer l'expérience des membre
 ### Fonctionnalités principales :
 
 - **[Modération]** : mute, unmute, ban, unban, kick.
-- **[Utilitaire]** : ping.
+- **[Utilitaire]** : ping, clear.
 - D'autres fonctionnalitées arriveront plus tard ✨
 
 ## Comment contribuer
