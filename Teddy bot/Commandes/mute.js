@@ -36,7 +36,7 @@ module.exports = {
         let time = args.getString("temps")
         if(!time) return message.reply("Pas de temps !")
         if(isNaN(ms(time))) return message.reply("Pas le bon format !")
-        if(ms(time) > 86400000) return message.reply("Le mute ne peut pas durer plus de 28 jours !")
+        if(ms(time) > 2419200000) return message.reply("Le mute ne peut pas durer plus de 28 jours !")
 
         let reason = args.getString("raison")
         if(!reason) reason = "Pas de raison fournie.";
